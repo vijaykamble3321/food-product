@@ -212,7 +212,7 @@ const FoodsCategory = () => {
             numberOfPieces={500}
             gravity={0.2}
           />
-          <div className="fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center p-4">
+          <div className="fixed inset-0  bg-opacity-70 z-50 flex items-center justify-center p-4">
             <div className="bg-white rounded-xl p-8 max-w-md w-full text-center animate-scaleIn">
               <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <FiCheck className="text-green-600 text-4xl" />
@@ -354,7 +354,7 @@ const FoodsCategory = () => {
       {/* Cart Overlay */}
       {isCartOpen && (
         <div 
-          className="fixed inset-0 bg-black bg-opacity-50 z-30"
+          className="fixed inset-0  bg-opacity-50 z-30"
           onClick={() => setIsCartOpen(false)}
         />
       )}
