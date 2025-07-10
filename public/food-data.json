@@ -1,0 +1,332 @@
+{
+    "Pizzas": [
+        {
+            "id": 1,
+            "name": "Margherita Pizza",
+            "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
+
+            "price": 8.99,
+            "description": "Classic pizza with fresh tomatoes, mozzarella cheese, and basil."
+        },
+        {
+            "id": 2,
+            "name": "Vegetable Pizza",
+            "image": "https://cdn.dummyjson.com/recipe-images/45.webp",
+            "price": 9.49,
+            "description": "Topped with seasonal vegetables and mozzarella cheese."
+        },
+        {
+            "id": 3,
+            "name": "Pesto Pizza",
+            "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
+            "price": 10.49,
+            "description": "Delicious pesto sauce with sun-dried tomatoes and mozzarella."
+        },
+        {
+            "id": 4,
+            "name": "Cheese Pizza",
+            "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
+            "price": 7.99,
+            "description": "A classic cheese pizza made with rich mozzarella."
+        },
+        {
+            "id": 5,
+            "name": "BBQ Vegetable Pizza",
+            "image": "https://cdn.dummyjson.com/recipe-images/45.webp",
+            "price": 10.99,
+            "description": "BBQ sauce topped with assorted grilled vegetables."
+        },
+        {
+            "id": 6,
+            "name": "Spinach and Feta Pizza",
+            "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
+            "price": 11.49,
+            "description": "Spinach and feta cheese on a tomato base."
+        }
+    ],
+    "Burgers": [
+        {
+            "id": 1,
+            "name": "Veggie Burger",
+            "image": "https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 9.99,
+            "description": "A hearty burger made with black beans and quinoa."
+        },
+        {
+            "id": 2,
+            "name": "Black Bean Burger",
+            "image": "https://images.pexels.com/photos/3616956/pexels-photo-3616956.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 8.49,
+            "description": "A delicious black bean patty with spices and herbs."
+        },
+        {
+            "id": 3,
+            "name": "Portobello Mushroom Burger",
+            "image": "https://example.com/images/portobello_burger.jpg",
+            "price": 10.49,
+            "description": "Grilled Portobello mushroom with fresh veggies."
+        },
+        {
+            "id": 4,
+            "name": "Chickpea Burger",
+            "image": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 8.99,
+            "description": "A chickpea-based burger packed with flavor."
+        },
+        {
+            "id": 5,
+            "name": "Quinoa Burger",
+            "image": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 9.49,
+            "description": "Healthy quinoa burger with fresh toppings."
+        },
+        {
+            "id": 6,
+            "name": "Sweet Potato Burger",
+            "image": "https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 9.99,
+            "description": "Sweet potato patty with a hint of spices."
+        }
+    ],
+    "Sandwiches":[
+        {
+            "id": 1,
+            "name": "Veggie Sandwich",
+            "image": "https://images.pexels.com/photos/1639564/pexels-photo-1639564.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 5.99,
+            "description": "Fresh vegetables with hummus on whole grain bread."
+        },
+        {
+            "id": 2,
+            "name": "Caprese Sandwich",
+            "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 6.49,
+            "description": "Fresh mozzarella, tomatoes, and basil on ciabatta."
+        },
+        {
+            "id": 3,
+            "name": "Grilled Cheese Sandwich",
+            "image": "https://images.pexels.com/photos/3311074/pexels-photo-3311074.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 4.99,
+            "description": "Classic grilled cheese made with cheddar on toasted bread."
+        },
+        {
+            "id": 4,
+            "name": "Hummus and Avocado Sandwich",
+            "image": "https://images.pexels.com/photos/1099681/pexels-photo-1099681.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 6.99,
+            "description": "Creamy hummus and avocado on whole grain bread."
+        },
+        {
+            "id": 5,
+            "name": "Peanut Butter and Banana Sandwich",
+            "image": "https://images.pexels.com/photos/8878359/pexels-photo-8878359.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 5.49,
+            "description": "Smooth peanut butter with banana slices on bread."
+        },
+        {
+            "id": 6,
+            "name": "Egg Salad Sandwich",
+            "image": "https://images.pexels.com/photos/1087535/pexels-photo-1087535.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 5.99,
+            "description": "Creamy egg salad with lettuce on soft bread."
+        },
+        {
+            "id": 7,
+            "name": "Falafel Sandwich",
+            "image": "https://images.pexels.com/photos/1087535/pexels-photo-1087535.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 7.49,
+            "description": "Crispy falafel with salad and tahini sauce."
+        }
+    ],
+    "Salads": [
+        {
+            "id": 1,
+            "name": "Caesar Salad",
+            "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 7.99,
+            "description": "Romaine lettuce, croutons, and Caesar dressing."
+        },
+        {
+            "id": 2,
+            "name": "Greek Salad",
+            "image": "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 8.49,
+            "description": "Tomatoes, cucumber, olives, and feta cheese."
+        },
+        {
+            "id": 3,
+            "name": "Cobb Salad",
+            "image": "https://images.pexels.com/photos/1580466/pexels-photo-1580466.jpeg?auto=compress&cs=tinysrgb&h=300h",
+            "price": 9.49,
+            "description": "Mixed greens with avocado, cheese, and dressing."
+        },
+        {
+            "id": 4,
+            "name": "Quinoa Salad",
+            "image": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 8.99,
+            "description": "Nutritious quinoa mixed with fresh vegetables."
+        },
+        {
+            "id": 5,
+            "name": "Caprese Salad",
+            "image": "https://images.pexels.com/photos/4113866/pexels-photo-4113866.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 8.99,
+            "description": "Fresh mozzarella, tomatoes, and basil drizzled with balsamic."
+        },
+        {
+            "id": 6,
+            "name": "Fruit Salad",
+            "image": "https://images.pexels.com/photos/4061525/pexels-photo-4061525.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 5.99,
+            "description": "A mix of seasonal fruits served chilled."
+        },
+        {
+            "id": 7,
+            "name": "Spinach Salad",
+            "image": "https://images.pexels.com/photos/4061525/pexels-photo-4061525.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 7.49,
+            "description": "Fresh spinach with nuts and vinaigrette."
+        }
+    ],
+    "Juices": [
+        {
+            "id": 1,
+            "name": "Orange Juice",
+            "image": "https://images.pexels.com/photos/5945637/pexels-photo-5945637.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 3.49,
+            "description": "Freshly squeezed orange juice."
+        },
+        {
+            "id": 2,
+            "name": "Apple Juice",
+            "image": "https://images.pexels.com/photos/5061173/pexels-photo-5061173.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 3.49,
+            "description": "Refreshing apple juice made from real apples."
+        },
+        {
+            "id": 3,
+            "name": "Carrot Juice",
+            "image": "https://images.pexels.com/photos/1640776/pexels-photo-1640776.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 3.99,
+            "description": "Nutritious juice made from fresh carrots."
+        },
+        {
+            "id": 4,
+            "name": "Beetroot Juice",
+            "image": "https://images.pexels.com/photos/1050273/pexels-photo-1050273.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 4.49,
+            "description": "Earthy beetroot juice with a hint of lemon."
+        },
+        {
+            "id": 5,
+            "name": "Pineapple Juice",
+            "image": "https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 3.99,
+            "description": "Tropical pineapple juice that refreshes."
+        },
+        {
+            "id": 6,
+            "name": "Grape Juice",
+            "image": "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 4.49,
+            "description": "Sweet and tangy grape juice."
+        }
+    ],
+    "Smoothies": [
+        {
+            "id": 1,
+            "name": "Banana Smoothie",
+            "image": "https://images.pexels.com/photos/5061173/pexels-photo-5061173.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 4.99,
+            "description": "Creamy banana smoothie with yogurt."
+        },
+        {
+            "id": 2,
+            "name": "Berry Smoothie",
+            "image": "https://images.pexels.com/photos/5946995/pexels-photo-5946995.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 5.49,
+            "description": "Mixed berry smoothie with a hint of honey."
+        },
+        {
+            "id": 3,
+            "name": "Mango Smoothie",
+            "image": "https://images.pexels.com/photos/3727258/pexels-photo-3727258.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 5.99,
+            "description": "Refreshing mango smoothie with coconut milk."
+        },
+        {
+            "id": 4,
+            "name": "Green Smoothie",
+            "image": "https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 6.49,
+            "description": "Nutritious green smoothie with spinach and apple."
+        },
+        {
+            "id": 5,
+            "name": "Peanut Butter Smoothie",
+            "image": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 6.99,
+            "description": "Rich smoothie with peanut butter and bananas."
+        },
+        {
+            "id": 6,
+            "name": "Tropical Smoothie",
+            "image": "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 6.99,
+            "description": "Tropical fruits blended with yogurt."
+        }
+    ],
+    "Ice-Creams": [
+        {
+            "id": 1,
+            "name": "Vanilla Ice Cream",
+            "image": "https://images.pexels.com/photos/1410236/pexels-photo-1410236.jpeg?auto=compress&cs=tinysrgb&h=300tps://example.com/images/vanilla_ice_cream.jpg",
+            "price": 3.49,
+            "description": "Classic vanilla ice cream made with real cream."
+        },
+        {
+            "id": 2,
+            "name": "Chocolate Ice Cream",
+            "image": "https://images.pexels.com/photos/1099681/pexels-photo-1099681.jpeg?auto=compress&cs=tinysrgb&h=300https://example.com/images/chocolate_ice_cream.jpg",
+            "price": 3.99,
+            "description": "Rich chocolate ice cream made with premium cocoa."
+        },
+        {
+            "id": 3,
+            "name": "Strawberry Ice Cream",
+            "image": "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&h=300g",
+            "price": 4.49,
+            "description": "Delicious strawberry ice cream made from fresh strawberries."
+        },
+        {
+            "id": 4,
+            "name": "Mint Chocolate Chip Ice Cream",
+            "image": "https://images.pexels.com/photos/461430/pexels-photo-461430.jpeg?auto=compress&cs=tinysrgb&h=300ip_ice_cream.jpg",
+            "price": 4.99,
+            "description": "Refreshing mint ice cream with chocolate chips."
+        },
+        {
+            "id": 5,
+            "name": "Cookie Dough Ice Cream",
+            "image": "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 5.49,
+            "description": "Creamy ice cream with chunks of cookie dough and chocolate chips."
+        },
+        {
+            "id": 6,
+            "name": "Mango Sorbet",
+            "image": "https://images.pexels.com/photos/1326944/pexels-photo-1326944.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 4.99,
+            "description": "Tropical mango sorbet made from real mangoes."
+        },
+        {
+            "id": 7,
+            "name": "Coffee Ice Cream",
+            "image": "https://images.pexels.com/photos/1326944/pexels-photo-1326944.jpeg?auto=compress&cs=tinysrgb&h=300",
+            "price": 4.49,
+            "description": "Rich coffee-flavored ice cream made with real coffee."
+        }
+    ]
+}
