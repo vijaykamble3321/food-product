@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router';
-import { FiShoppingCart, FiSearch, FiX, FiPlus, FiMinus, FiCheck } from 'react-icons/fi';
+import { FiShoppingCart, FiSearch, FiX, FiPlus, FiMinus, FiCheck, FiArrowLeft } from 'react-icons/fi';
 import Confetti from 'react-confetti';
 import { useWindowSize } from 'react-use';
 
@@ -85,11 +85,8 @@ const FoodsCategory = () => {
     const existingItem = cartItems.find(item => item.id === product.id);
     
     if (existingItem) {
-      // Show "already exists" message
       setShowAlreadyExists(true);
       setTimeout(() => setShowAlreadyExists(false), 2000);
-      
-      // Still update quantity but don't show the animation
       setCartItems(cartItems.map(item =>
         item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item
       ));
@@ -215,7 +212,7 @@ const FoodsCategory = () => {
             numberOfPieces={500}
             gravity={0.2}
           />
-          <div className="fixed inset-0  bg-opacity-70 z-50 flex items-center justify-center p-4">
+          <div className="fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center p-4">
             <div className="bg-white rounded-xl p-8 max-w-md w-full text-center animate-scaleIn">
               <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <FiCheck className="text-green-600 text-4xl" />
@@ -239,10 +236,22 @@ const FoodsCategory = () => {
       <div className={`fixed top-0 right-0 h-full w-full sm:w-96 bg-white shadow-xl transform transition-transform duration-300 z-40 ${isCartOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="p-6 h-full flex flex-col">
           <div className="flex justify-between items-center mb-6">
-            <h2 className="text-2xl font-bold text-gray-800">Your Order</h2>
+            {/* Back button for mobile */}
             <button 
               onClick={() => setIsCartOpen(false)}
-              className="text-gray-500 hover:text-gray-700"
+              className="sm:hidden text-gray-500 hover:text-gray-700 mr-2"
+            >
+              <FiArrowLeft size={24} />
+            </button>
+            
+            <h2 className="text-2xl font-bold text-gray-800 flex-grow text-center sm:text-left">
+              Your Order
+            </h2>
+            
+            {/* Close button for desktop */}
+            <button 
+              onClick={() => setIsCartOpen(false)}
+              className="hidden sm:block text-gray-500 hover:text-gray-700"
             >
               <FiX size={24} />
             </button>
@@ -253,6 +262,12 @@ const FoodsCategory = () => {
               <FiShoppingCart size={48} className="text-gray-300 mb-4" />
               <h3 className="text-xl font-medium text-gray-600 mb-2">Your cart is empty</h3>
               <p className="text-gray-500">Add some delicious items to get started</p>
+              <button
+                onClick={() => setIsCartOpen(false)}
+                className="mt-4 px-4 py-2 bg-blue-100 text-blue-600 rounded-lg hover:bg-blue-200 transition-all sm:hidden"
+              >
+                Back to Menu
+              </button>
             </div>
           ) : (
             <>
@@ -322,6 +337,14 @@ const FoodsCategory = () => {
                 >
                   Place Order
                 </button>
+                
+                {/* Back button for mobile when cart has items */}
+                <button
+                  onClick={() => setIsCartOpen(false)}
+                  className="w-full mt-4 py-3 bg-gray-100 text-gray-800 rounded-lg hover:bg-gray-200 transition-all sm:hidden"
+                >
+                  Back to Menu
+                </button>
               </div>
             </>
           )}
@@ -331,7 +354,7 @@ const FoodsCategory = () => {
       {/* Cart Overlay */}
       {isCartOpen && (
         <div 
-          className="fixed inset-0  bg-opacity-50 z-30"
+          className="fixed inset-0 bg-black bg-opacity-50 z-30"
           onClick={() => setIsCartOpen(false)}
         />
       )}
